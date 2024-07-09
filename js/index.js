@@ -5,6 +5,7 @@ var form = document.querySelector("form");
 var login_warning=document.querySelector(".login-warning");
 form.addEventListener("submit", function(e) {
     e.preventDefault();
+    window.location.href = "./../home.html";
 });
 var allUsers=[]
 if (localStorage.getItem("Users")!==null){
@@ -20,7 +21,6 @@ function loginCheck(){
     }
     if(validateUSer){
         localStorage.setItem("UserName",JSON.stringify(validateUSer))
-        window.location="./../home.html"
     }
     else{
         console.log(false)

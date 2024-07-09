@@ -80,6 +80,7 @@
 var form = document.querySelector("form");
 form.addEventListener("submit", function(e) {
     e.preventDefault();
+    window.location.href = "./../index.html";
 });
 
 var userName = document.getElementById("name");
@@ -110,7 +111,6 @@ function addUser() {
         localStorage.setItem("Users", JSON.stringify(allUsers));
         clearForm();
         success.classList.remove("d-none")
-        window.location="./../index.html"
     }
 }
 
