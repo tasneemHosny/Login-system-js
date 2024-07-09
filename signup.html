@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login system</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <section class="container m-auto mt-5 py-5">
+        <div class="w-100">
+            <h2 class="text-center">Registration page</h2>
+            <form action="">
+                <p class="email-exist text-danger d-none">email already exist</p>
+                <input type="name" name="name" id="name" class="form-control w-100" placeholder="Enter your name">
+                <p class="name-warning text-danger d-none">enter valid name</p>
+                <input type="email" name="email" id="email" class="form-control w-100" placeholder="Enter your email">
+                <p class="email-warning text-danger d-none">enter valid email</p>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password">
+                <p class="password-warning text-danger d-none">password should be at least 8 characters</p>
+                <p class="text-success success d-none">success</p>
+                <button type="submit" class="btn w-100">Signup</button>
+                <p class="text-center text-white">You have an account?<a href="./index.html"> Login</a></p>
+            </form>
+        </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+</body>
+</html>

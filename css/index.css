@@ -1,0 +1,92 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #24353F;
+}
+.container{
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.form-control{
+    background: transparent;
+    margin-top: 20px;
+
+}
+.form-control::placeholder{
+    color: rgb(165, 163, 163);
+}
+.form-control:focus{
+    background: transparent;
+}
+h2{
+    color: #17A2B8;
+    margin-bottom: 20px;
+}
+.btn{
+    color: #17A2B8;
+    border: 1px solid #17A2B8;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #17A2B8;
+}
+p{
+    margin-top: 20px;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    padding: 20px;
+    background-color: #24353F!important;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .welcome {
+        font-size: 1.5rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .welcome {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
