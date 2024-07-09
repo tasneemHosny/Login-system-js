@@ -8,5 +8,5 @@ welcome.innerHTML=`Welcome ${JSON.parse(localStorage.getItem("UserName"))}`
 
 logout.addEventListener("click",function(){
     console.log("logout")
-    window.location.href = "./../index.html";
+    window.location= "./index.html";
 })
